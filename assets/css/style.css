@@ -1,0 +1,75 @@
+
+#sticky{
+    position: sticky;
+    top: 0;
+    margin-bottom: 20px;
+}
+
+body{
+    background-color: lightslategray;
+}
+
+.navchange{
+    border-color: salmon;
+    border-style: solid;
+    padding: 0;
+}
+
+#navname{
+    border-color: lightslategray;
+    border-left-style: solid;
+    border-right-style: solid;
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 100px;
+    background-color: teal;
+    padding: 15px
+}
+.navaaa{
+    margin-right: 100px;
+}
+.linkport{
+    border-color: gainsboro;
+    border-left-style: solid;
+    border-right-style: solid;
+
+}
+.container{
+    border-style: solid;
+    border-color: gainsboro;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    line-height: 1.6;
+    width: 700px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+.AM{
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+    color: teal;
+    border-bottom-style: solid;
+    border-color: gainsboro;
+}
+.ABTME{
+    padding-left: 0;
+    padding-right: 0;
+    margin: 20px;
+    font-size: 15px;
+}
+.copyright{
+    color: whitesmoke;
+    text-align: center;
+    border-top-style: solid;
+    border-color: teal;
+    background-color: lightslategray;
+}
