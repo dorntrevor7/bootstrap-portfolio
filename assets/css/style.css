@@ -1,12 +1,7 @@
 
-#sticky{
-    position: sticky;
-    top: 0;
-    margin-bottom: 20px;
-}
 
 body{
-    background-color: lightslategray;
+    background-color: grey;
 }
 
 .navchange{
@@ -67,9 +62,11 @@ body{
     font-size: 15px;
 }
 .copyright{
-    color: whitesmoke;
+    font-size: 10px;
+    color: lightslategray;
     text-align: center;
     border-top-style: solid;
     border-color: teal;
-    background-color: lightslategray;
+    background-color: whitesmoke;
+    height: 40px;
 }
