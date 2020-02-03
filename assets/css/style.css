@@ -32,6 +32,7 @@ body{
 
 }
 .container{
+    padding: 20px;
     border-style: solid;
     border-color: gainsboro;
     font-family: 'Times New Roman', Times, serif;
@@ -41,13 +42,20 @@ body{
     margin-top:40px;
     background-color: whitesmoke;
 }
+.Contacth1{
+    font-size: 30px;
+    font-weight: bold;
+    color: teal;
+}
+.IbarsCont{
+    margin-top: 20px;
+}
 .AM{
     padding-left: 0;
     padding-right: 0;
     margin-top: 20px;
     margin-right: 20px;
     margin-left: 20px;
-    padding-bottom: 20px;
     font-size: 30px;
     font-weight: bold;
     width: 100%;
@@ -69,4 +77,11 @@ body{
     border-color: teal;
     background-color: whitesmoke;
     height: 40px;
+}
+.cont{
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 15px;
+    margin: 5px;
+    margin-top: 15px;
 }
