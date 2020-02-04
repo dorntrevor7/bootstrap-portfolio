@@ -1,11 +1,11 @@
-/* style for body section, background image */
+/* Style for body section, background image */
 
 body {
     background-image: url(https://images.pexels.com/photos/2341290/pexels-photo-2341290.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
 }
 
 
-/* style for the nav bar , header */
+/* Style for the nav bar , header */
 
 .navchange {
     border-color: salmon;
@@ -37,7 +37,7 @@ body {
 }
 
 
-/* style for the container class , main */
+/* Style for the container class , main */
 
 .container {
     padding: 20px;
@@ -77,7 +77,7 @@ body {
 }
 
 
-/* style for the footer */
+/* Style for the footer */
 
 .copyright {
     font-size: 10px;
@@ -89,8 +89,13 @@ body {
     height: 40px;
 }
 
+.cText {
+    margin-top: 20px;
+    font-weight: bold;
+}
 
-/* if the screen expands larger than 990px then the container will only be 700px */
+
+/* If the screen expands larger than 990px then the container will only be 700px */
 
 @media only screen and (min-width: 990px) {
     .container {
