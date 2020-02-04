@@ -1,105 +1,97 @@
-/* Style for body section, background image */
-
-body {
-    background-image: url(https://images.pexels.com/photos/2341290/pexels-photo-2341290.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
-}
-
-
-/* Style for the nav bar , header */
-
-.navchange {
-    border-color: salmon;
-    border-style: solid;
-    padding: 0;
-}
-
-#navname {
-    border-color: lightslategray;
-    border-left-style: solid;
-    border-right-style: solid;
-    color: whitesmoke;
-    font-size: 30px;
-    font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
-    margin-left: 150px;
-    background-color: teal;
-    padding: 15px
-}
-
-.navaaa {
-    margin-right: 100px;
-}
-
-.linkport {
-    border-color: gainsboro;
-    border-left: solid;
-    border-right: solid;
-}
-
-
-/* Style for the container class , main */
-
-.container {
-    padding: 20px;
-    border-style: solid;
-    border-color: gainsboro;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: medium;
-    line-height: 1.6;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    background-color: whitesmoke;
-}
-
-.IbarsCont {
-    margin-top: 20px;
-}
-
-.AM {
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
-    font-size: 30px;
-    font-weight: bold;
-    width: 100%;
-    color: teal;
-    border-bottom-style: solid;
-    border-color: gainsboro;
-}
-
-.ABTME {
-    padding-left: 0;
-    padding-right: 0;
-    margin: 20px;
-    font-size: 15px;
-}
-
-
-/* Style for the footer */
-
-.copyright {
-    font-size: 10px;
-    color: lightslategray;
-    text-align: center;
-    border-top-style: solid;
-    border-color: teal;
-    background-color: whitesmoke;
-    height: 40px;
-    margin-top: 40px;
-}
-
-.cText {
-    margin-top: 20px;
-    font-weight: bold;
-}
-
-
-/* If the screen expands larger than 990px then the container will only be 700px */
-
-@media only screen and (min-width: 990px) {
-    .container {
-        width: 700px;
+    /* Style for body section, background image */
+    
+    body {
+        background-image: url(https://images.pexels.com/photos/2341290/pexels-photo-2341290.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
     }
-}
+    /* Style for the nav bar , header */
+    
+    .navchange {
+        border-color: salmon;
+        border-style: solid;
+        padding: 0;
+    }
+    
+    #navname {
+        border-color: lightslategray;
+        border-left-style: solid;
+        border-right-style: solid;
+        color: whitesmoke;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        margin-left: 150px;
+        background-color: teal;
+        padding: 15px
+    }
+    
+    .navaaa {
+        margin-right: 100px;
+    }
+    
+    .linkport {
+        border-color: gainsboro;
+        border-left: solid;
+        border-right: solid;
+    }
+    /* Style for the container class , main */
+    
+    .container {
+        padding: 20px;
+        border-style: solid;
+        border-color: gainsboro;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: medium;
+        line-height: 1.6;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        background-color: whitesmoke;
+    }
+    
+    .IbarsCont {
+        margin-top: 20px;
+    }
+    
+    .AM {
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+        font-size: 30px;
+        font-weight: bold;
+        width: 100%;
+        color: teal;
+        border-bottom-style: solid;
+        border-color: gainsboro;
+    }
+    
+    .ABTME {
+        padding-left: 0;
+        padding-right: 0;
+        margin: 20px;
+        font-size: 15px;
+    }
+    /* Style for the footer */
+    
+    .copyright {
+        font-size: 10px;
+        color: lightslategray;
+        text-align: center;
+        border-top-style: solid;
+        border-color: teal;
+        background-color: whitesmoke;
+        height: 40px;
+        margin-top: 40px;
+    }
+    
+    .cText {
+        margin-top: 20px;
+        font-weight: bold;
+    }
+    /* If the screen expands larger than 990px then the container will only be 700px */
+    
+    @media only screen and (min-width: 990px) {
+        .container {
+            width: 700px;
+        }
+    }
