@@ -74,6 +74,9 @@
     /* Style for the footer */
     
     .copyright {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
         font-size: 10px;
         color: lightslategray;
         text-align: center;
@@ -81,12 +84,23 @@
         border-color: teal;
         background-color: whitesmoke;
         height: 40px;
-        margin-top: 40px;
     }
     
     .cText {
         margin-top: 20px;
         font-weight: bold;
+    }
+    
+    .portcopy {
+        bottom: 0;
+        width: 100%;
+        font-size: 10px;
+        color: lightslategray;
+        text-align: center;
+        border-top-style: solid;
+        border-color: teal;
+        background-color: whitesmoke;
+        height: 40px;
     }
     /* If the screen expands larger than 990px then the container will only be 700px */
     
