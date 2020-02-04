@@ -1,6 +1,11 @@
+/* style for body section, background image */
+
 body {
     background-image: url(https://images.pexels.com/photos/2341290/pexels-photo-2341290.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
 }
+
+
+/* style for the nav bar , header */
 
 .navchange {
     border-color: salmon;
@@ -30,6 +35,9 @@ body {
     border-left: solid;
     border-right: solid;
 }
+
+
+/* style for the container class , main */
 
 .container {
     padding: 20px;
@@ -68,6 +76,9 @@ body {
     font-size: 15px;
 }
 
+
+/* style for the footer */
+
 .copyright {
     font-size: 10px;
     color: lightslategray;
@@ -78,13 +89,8 @@ body {
     height: 40px;
 }
 
-.cont {
-    padding-left: 0;
-    padding-right: 0;
-    font-size: 15px;
-    margin: 5px;
-    margin-top: 15px;
-}
+
+/* if the screen expands larger than 990px then the container will only be 700px */
 
 @media only screen and (min-width: 990px) {
     .container {
