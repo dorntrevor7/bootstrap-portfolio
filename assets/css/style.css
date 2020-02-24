@@ -33,8 +33,8 @@
         border-left: solid;
         border-right: solid;
     }
+
     /* Style for the container class , main */
-    
     .container {
         padding: 20px;
         border-style: solid;
@@ -70,6 +70,9 @@
         padding-right: 0;
         margin: 20px;
         font-size: 15px;
+    }
+    .galleryPhotos{
+        height: 300px;
     }
     /* Style for the footer */
     
