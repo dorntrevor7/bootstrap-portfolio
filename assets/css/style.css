@@ -92,8 +92,8 @@
         background-color: whitesmoke;
         height: 40px;
     }
+
     /* If the screen expands larger than 990px then the container will only be 700px */
-    
     @media only screen and (min-width: 990px) {
         .container {
             width: 700px;
